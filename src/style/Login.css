@@ -1,0 +1,82 @@
+/* Custom CSS for the login form */
+
+/* Set the background image for the container */
+.login-container {
+  background-image: url('../assets/background.jpg'); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b9c8d5;
+
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f8f9fa;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.login-box{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: linear-gradient(45deg, black, transparent);
+  border: ridge 1px;
+}
+.side-content{
+  padding: 10px 50px;
+}
+
+/* Style for the transparent login form */
+.login-form {
+  background: transparent;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  border-left: #b9c8d5;
+}
+
+.form-control:focus {
+  color: #b9c8d5;
+  background-color: transparent;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+/* Form input styling */
+.form-control {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: transparent;
+  color: #b9c8d5; /* Optional: add a slight white background to inputs */
+}
+
+/* Styling for the login button */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #95acc5; /* Button color */
+}
+.btn-primary:hover{
+  background-color: #46515c;
+}
+.form-text {
+  margin-top: .25rem;
+  font-size: .875em;
+  color: #b9c8d5;
+}
